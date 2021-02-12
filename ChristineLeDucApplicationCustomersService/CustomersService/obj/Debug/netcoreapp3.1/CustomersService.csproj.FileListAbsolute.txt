@@ -1,0 +1,16 @@
+C:\Users\Robbe\Desktop\CLD\Application\ChristineLeDucApplicationCustomersService\CustomersService\bin\Debug\netcoreapp3.1\CustomersService.exe
+C:\Users\Robbe\Desktop\CLD\Application\ChristineLeDucApplicationCustomersService\CustomersService\bin\Debug\netcoreapp3.1\CustomersService.deps.json
+C:\Users\Robbe\Desktop\CLD\Application\ChristineLeDucApplicationCustomersService\CustomersService\bin\Debug\netcoreapp3.1\CustomersService.runtimeconfig.json
+C:\Users\Robbe\Desktop\CLD\Application\ChristineLeDucApplicationCustomersService\CustomersService\bin\Debug\netcoreapp3.1\CustomersService.runtimeconfig.dev.json
+C:\Users\Robbe\Desktop\CLD\Application\ChristineLeDucApplicationCustomersService\CustomersService\bin\Debug\netcoreapp3.1\CustomersService.dll
+C:\Users\Robbe\Desktop\CLD\Application\ChristineLeDucApplicationCustomersService\CustomersService\bin\Debug\netcoreapp3.1\CustomersService.pdb
+C:\Users\Robbe\Desktop\CLD\Application\ChristineLeDucApplicationCustomersService\CustomersService\obj\Debug\netcoreapp3.1\CustomersService.csprojAssemblyReference.cache
+C:\Users\Robbe\Desktop\CLD\Application\ChristineLeDucApplicationCustomersService\CustomersService\obj\Debug\netcoreapp3.1\CustomersService.MainGUI.resources
+C:\Users\Robbe\Desktop\CLD\Application\ChristineLeDucApplicationCustomersService\CustomersService\obj\Debug\netcoreapp3.1\CustomersService.Properties.Resources.resources
+C:\Users\Robbe\Desktop\CLD\Application\ChristineLeDucApplicationCustomersService\CustomersService\obj\Debug\netcoreapp3.1\CustomersService.csproj.GenerateResource.cache
+C:\Users\Robbe\Desktop\CLD\Application\ChristineLeDucApplicationCustomersService\CustomersService\obj\Debug\netcoreapp3.1\CustomersService.AssemblyInfoInputs.cache
+C:\Users\Robbe\Desktop\CLD\Application\ChristineLeDucApplicationCustomersService\CustomersService\obj\Debug\netcoreapp3.1\CustomersService.AssemblyInfo.cs
+C:\Users\Robbe\Desktop\CLD\Application\ChristineLeDucApplicationCustomersService\CustomersService\obj\Debug\netcoreapp3.1\CustomersService.csproj.CoreCompileInputs.cache
+C:\Users\Robbe\Desktop\CLD\Application\ChristineLeDucApplicationCustomersService\CustomersService\obj\Debug\netcoreapp3.1\CustomersService.dll
+C:\Users\Robbe\Desktop\CLD\Application\ChristineLeDucApplicationCustomersService\CustomersService\obj\Debug\netcoreapp3.1\CustomersService.pdb
+C:\Users\Robbe\Desktop\CLD\Application\ChristineLeDucApplicationCustomersService\CustomersService\obj\Debug\netcoreapp3.1\CustomersService.genruntimeconfig.cache
