@@ -12,6 +12,8 @@ namespace CustomersService {
         public HomeGUI(MainGUI mainForm) {
             InitializeComponent();
             this.mainForm = mainForm;
+            this.label5.Text = mainForm.loginContr.DatabasePath;
+            this.label6.Text = mainForm.loginContr.WorkerName;
         }
 
         private void Afmelden_Click(object sender, EventArgs e) {

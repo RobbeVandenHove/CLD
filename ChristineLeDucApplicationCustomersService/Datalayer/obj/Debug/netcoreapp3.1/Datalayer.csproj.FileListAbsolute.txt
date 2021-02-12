@@ -7,3 +7,6 @@ C:\Users\Robbe\Desktop\CLD\Application\ChristineLeDucApplicationCustomersService
 C:\Users\Robbe\Desktop\CLD\Application\ChristineLeDucApplicationCustomersService\Datalayer\obj\Debug\netcoreapp3.1\Datalayer.csproj.CoreCompileInputs.cache
 C:\Users\Robbe\Desktop\CLD\Application\ChristineLeDucApplicationCustomersService\Datalayer\obj\Debug\netcoreapp3.1\Datalayer.dll
 C:\Users\Robbe\Desktop\CLD\Application\ChristineLeDucApplicationCustomersService\Datalayer\obj\Debug\netcoreapp3.1\Datalayer.pdb
+C:\Users\Robbe\Desktop\CLD\Application\ChristineLeDucApplicationCustomersService\Datalayer\bin\Debug\netcoreapp3.1\Globals.dll
+C:\Users\Robbe\Desktop\CLD\Application\ChristineLeDucApplicationCustomersService\Datalayer\bin\Debug\netcoreapp3.1\Globals.pdb
+C:\Users\Robbe\Desktop\CLD\Application\ChristineLeDucApplicationCustomersService\Datalayer\obj\Debug\netcoreapp3.1\Datalayer.csproj.CopyComplete

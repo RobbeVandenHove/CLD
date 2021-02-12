@@ -213,6 +213,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
+          "Globals": "1.0.0",
           "System.Data.OleDb": "5.0.0"
         },
         "compile": {
@@ -222,11 +223,22 @@
           "bin/placeholder/Datalayer.dll": {}
         }
       },
+      "Globals/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Globals.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Globals.dll": {}
+        }
+      },
       "Logic/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
           "Datalayer": "1.0.0",
+          "Globals": "1.0.0",
           "System.Data.OleDb": "5.0.0"
         },
         "compile": {
@@ -668,6 +680,11 @@
       "path": "../Datalayer/Datalayer.csproj",
       "msbuildProject": "../Datalayer/Datalayer.csproj"
     },
+    "Globals/1.0.0": {
+      "type": "project",
+      "path": "../Globals/Globals.csproj",
+      "msbuildProject": "../Globals/Globals.csproj"
+    },
     "Logic/1.0.0": {
       "type": "project",
       "path": "../Logic/Logic.csproj",
@@ -676,6 +693,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "Globals >= 1.0.0",
       "Logic >= 1.0.0"
     ]
   },
@@ -706,6 +724,9 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
+            "C:\\Users\\Robbe\\Desktop\\CLD\\Application\\ChristineLeDucApplicationCustomersService\\Globals\\Globals.csproj": {
+              "projectPath": "C:\\Users\\Robbe\\Desktop\\CLD\\Application\\ChristineLeDucApplicationCustomersService\\Globals\\Globals.csproj"
+            },
             "C:\\Users\\Robbe\\Desktop\\CLD\\Application\\ChristineLeDucApplicationCustomersService\\Logic\\Logic.csproj": {
               "projectPath": "C:\\Users\\Robbe\\Desktop\\CLD\\Application\\ChristineLeDucApplicationCustomersService\\Logic\\Logic.csproj"
             }

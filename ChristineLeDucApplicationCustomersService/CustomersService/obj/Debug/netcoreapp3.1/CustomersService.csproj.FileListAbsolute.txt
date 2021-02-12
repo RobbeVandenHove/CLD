@@ -44,3 +44,6 @@ C:\Users\Robbe\Desktop\CLD\Application\ChristineLeDucApplicationCustomersService
 C:\Users\Robbe\Desktop\CLD\Application\ChristineLeDucApplicationCustomersService\CustomersService\bin\Debug\netcoreapp3.1\Datalayer.pdb
 C:\Users\Robbe\Desktop\CLD\Application\ChristineLeDucApplicationCustomersService\CustomersService\obj\Debug\netcoreapp3.1\CustomersService.csproj.CopyComplete
 C:\Users\Robbe\Desktop\CLD\Application\ChristineLeDucApplicationCustomersService\CustomersService\obj\Debug\netcoreapp3.1\CustomersService.AddWorkerGUI.resources
+C:\Users\Robbe\Desktop\CLD\Application\ChristineLeDucApplicationCustomersService\CustomersService\obj\Debug\netcoreapp3.1\CustomersService.NewComplaintGUI.resources
+C:\Users\Robbe\Desktop\CLD\Application\ChristineLeDucApplicationCustomersService\CustomersService\bin\Debug\netcoreapp3.1\Globals.dll
+C:\Users\Robbe\Desktop\CLD\Application\ChristineLeDucApplicationCustomersService\CustomersService\bin\Debug\netcoreapp3.1\Globals.pdb

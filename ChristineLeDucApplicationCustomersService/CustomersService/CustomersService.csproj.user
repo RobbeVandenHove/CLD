@@ -13,5 +13,8 @@
     <Compile Update="MainGUI.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="NewComplaintGUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
 </Project>

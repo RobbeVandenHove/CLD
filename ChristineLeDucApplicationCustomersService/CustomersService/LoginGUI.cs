@@ -8,6 +8,7 @@ namespace CustomersService {
         private string database;
         public LoginGUI(MainGUI mainForm) {
             InitializeComponent();
+            this.textBox2.PasswordChar = '*';
             this.ErrorLabel.Text = "";
             this.mainForm = mainForm;
         }

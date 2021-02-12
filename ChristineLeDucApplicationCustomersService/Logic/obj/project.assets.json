@@ -213,6 +213,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
+          "Globals": "1.0.0",
           "System.Data.OleDb": "5.0.0"
         },
         "compile": {
@@ -220,6 +221,16 @@
         },
         "runtime": {
           "bin/placeholder/Datalayer.dll": {}
+        }
+      },
+      "Globals/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Globals.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Globals.dll": {}
         }
       }
     }
@@ -653,11 +664,17 @@
       "type": "project",
       "path": "../Datalayer/Datalayer.csproj",
       "msbuildProject": "../Datalayer/Datalayer.csproj"
+    },
+    "Globals/1.0.0": {
+      "type": "project",
+      "path": "../Globals/Globals.csproj",
+      "msbuildProject": "../Globals/Globals.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "Datalayer >= 1.0.0",
+      "Globals >= 1.0.0",
       "System.Data.OleDb >= 5.0.0"
     ]
   },
@@ -690,6 +707,9 @@
           "projectReferences": {
             "C:\\Users\\Robbe\\Desktop\\CLD\\Application\\ChristineLeDucApplicationCustomersService\\Datalayer\\Datalayer.csproj": {
               "projectPath": "C:\\Users\\Robbe\\Desktop\\CLD\\Application\\ChristineLeDucApplicationCustomersService\\Datalayer\\Datalayer.csproj"
+            },
+            "C:\\Users\\Robbe\\Desktop\\CLD\\Application\\ChristineLeDucApplicationCustomersService\\Globals\\Globals.csproj": {
+              "projectPath": "C:\\Users\\Robbe\\Desktop\\CLD\\Application\\ChristineLeDucApplicationCustomersService\\Globals\\Globals.csproj"
             }
           }
         }

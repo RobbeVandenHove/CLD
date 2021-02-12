@@ -9,6 +9,7 @@
       "Logic/1.0.0": {
         "dependencies": {
           "Datalayer": "1.0.0",
+          "Globals": "1.0.0",
           "System.Data.OleDb": "5.0.0"
         },
         "runtime": {
@@ -227,10 +228,16 @@
       },
       "Datalayer/1.0.0": {
         "dependencies": {
+          "Globals": "1.0.0",
           "System.Data.OleDb": "5.0.0"
         },
         "runtime": {
           "Datalayer.dll": {}
+        }
+      },
+      "Globals/1.0.0": {
+        "runtime": {
+          "Globals.dll": {}
         }
       }
     }
@@ -326,6 +333,11 @@
       "hashPath": "system.windows.extensions.5.0.0.nupkg.sha512"
     },
     "Datalayer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Globals/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

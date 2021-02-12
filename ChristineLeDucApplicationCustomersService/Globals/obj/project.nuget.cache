@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "nlX8enHQLZU7Otwsv/rDrefJoZ2Yd63evBf8uejLKCxwr1/1uXyZsblmAvX7zwLquEEZsNISTB65jvlC3hBhjg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Robbe\\Desktop\\CLD\\Application\\ChristineLeDucApplicationCustomersService\\Globals\\Globals.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Robbe\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Robbe\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

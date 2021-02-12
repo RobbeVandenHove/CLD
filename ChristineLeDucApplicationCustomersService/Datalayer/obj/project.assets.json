@@ -208,6 +208,16 @@
             "rid": "win"
           }
         }
+      },
+      "Globals/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Globals.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Globals.dll": {}
+        }
       }
     }
   },
@@ -635,10 +645,16 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "Globals/1.0.0": {
+      "type": "project",
+      "path": "../Globals/Globals.csproj",
+      "msbuildProject": "../Globals/Globals.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "Globals >= 1.0.0",
       "System.Data.OleDb >= 5.0.0"
     ]
   },
@@ -668,7 +684,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Robbe\\Desktop\\CLD\\Application\\ChristineLeDucApplicationCustomersService\\Globals\\Globals.csproj": {
+              "projectPath": "C:\\Users\\Robbe\\Desktop\\CLD\\Application\\ChristineLeDucApplicationCustomersService\\Globals\\Globals.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

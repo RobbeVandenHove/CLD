@@ -1,0 +1,9 @@
+C:\Users\Robbe\Desktop\CLD\Application\ChristineLeDucApplicationCustomersService\Globals\bin\Debug\netstandard2.0\Globals.deps.json
+C:\Users\Robbe\Desktop\CLD\Application\ChristineLeDucApplicationCustomersService\Globals\bin\Debug\netstandard2.0\Globals.dll
+C:\Users\Robbe\Desktop\CLD\Application\ChristineLeDucApplicationCustomersService\Globals\bin\Debug\netstandard2.0\Globals.pdb
+C:\Users\Robbe\Desktop\CLD\Application\ChristineLeDucApplicationCustomersService\Globals\obj\Debug\netstandard2.0\Globals.csprojAssemblyReference.cache
+C:\Users\Robbe\Desktop\CLD\Application\ChristineLeDucApplicationCustomersService\Globals\obj\Debug\netstandard2.0\Globals.AssemblyInfoInputs.cache
+C:\Users\Robbe\Desktop\CLD\Application\ChristineLeDucApplicationCustomersService\Globals\obj\Debug\netstandard2.0\Globals.AssemblyInfo.cs
+C:\Users\Robbe\Desktop\CLD\Application\ChristineLeDucApplicationCustomersService\Globals\obj\Debug\netstandard2.0\Globals.csproj.CoreCompileInputs.cache
+C:\Users\Robbe\Desktop\CLD\Application\ChristineLeDucApplicationCustomersService\Globals\obj\Debug\netstandard2.0\Globals.dll
+C:\Users\Robbe\Desktop\CLD\Application\ChristineLeDucApplicationCustomersService\Globals\obj\Debug\netstandard2.0\Globals.pdb

@@ -36,16 +36,16 @@ namespace CustomersService {
             // 
             // panel1
             // 
-            this.panel1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.panel1.Controls.Add(this.Afmelden);
             this.panel1.Controls.Add(this.label6);
             this.panel1.Controls.Add(this.label5);
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.label1);
-            this.panel1.Location = new System.Drawing.Point(173, 174);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(457, 257);
+            this.panel1.Size = new System.Drawing.Size(871, 633);
             this.panel1.TabIndex = 0;
             // 
             // Afmelden
@@ -54,7 +54,7 @@ namespace CustomersService {
             this.Afmelden.FlatAppearance.BorderSize = 0;
             this.Afmelden.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Afmelden.ForeColor = System.Drawing.Color.White;
-            this.Afmelden.Location = new System.Drawing.Point(95, 177);
+            this.Afmelden.Location = new System.Drawing.Point(235, 384);
             this.Afmelden.Name = "Afmelden";
             this.Afmelden.Size = new System.Drawing.Size(189, 29);
             this.Afmelden.TabIndex = 6;
@@ -65,7 +65,7 @@ namespace CustomersService {
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(301, 122);
+            this.label6.Location = new System.Drawing.Point(441, 329);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(50, 20);
             this.label6.TabIndex = 5;
@@ -74,7 +74,7 @@ namespace CustomersService {
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(301, 78);
+            this.label5.Location = new System.Drawing.Point(441, 285);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(50, 20);
             this.label5.TabIndex = 4;
@@ -83,7 +83,7 @@ namespace CustomersService {
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(95, 122);
+            this.label3.Location = new System.Drawing.Point(235, 329);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(159, 20);
             this.label3.TabIndex = 2;
@@ -92,7 +92,7 @@ namespace CustomersService {
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(95, 78);
+            this.label2.Location = new System.Drawing.Point(235, 285);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(134, 20);
             this.label2.TabIndex = 1;
@@ -100,12 +100,12 @@ namespace CustomersService {
             // 
             // label1
             // 
-            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(92, 0);
+            this.label1.Location = new System.Drawing.Point(235, 214);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(276, 28);
+            this.label1.Size = new System.Drawing.Size(275, 28);
             this.label1.TabIndex = 0;
             this.label1.Text = "Welcome to customers service";
             // 
@@ -113,6 +113,7 @@ namespace CustomersService {
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSize = true;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(871, 633);
             this.Controls.Add(this.panel1);

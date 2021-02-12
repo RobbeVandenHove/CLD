@@ -1,5 +1,7 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Data.OleDb;
+using System.Text;
 using Datalayer;
 
 namespace Logic {
@@ -9,9 +11,11 @@ namespace Logic {
         public bool LogedInSuccesfully { get; set; }
         private string Password { get; set; }
         public int LastInsertedId { get; set; }
+        public string DatabasePath { get; set; }
         private IAuthDb db;
         public AuthController(string path, string firstName, string lastName, string email, string password, string admin) {
             try {
+                DatabasePath = path;
                 this.db = new AuthDb();
                 db.ConnString = @"Provider = Microsoft.ACE.OLEDB.12.0; Data Source = " + path + "; Persist Security Info = False;";
                 if (admin == "ChristineLeDuc") {
@@ -30,6 +34,7 @@ namespace Logic {
         }
         public AuthController(string id, string password, string path) {
             try {
+                DatabasePath = path;
                 this.db = new AuthDb();
                 db.ConnString = @"Provider = Microsoft.ACE.OLEDB.12.0; Data Source = " + path + "; Persist Security Info = False;";
                 WorkerId = Int32.Parse(id);
