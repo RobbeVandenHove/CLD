@@ -63,6 +63,16 @@ namespace CustomersService.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap AddAccount {
+            get {
+                object obj = ResourceManager.GetObject("AddAccount", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap ExistingComplaint {
             get {
                 object obj = ResourceManager.GetObject("ExistingComplaint", resourceCulture);

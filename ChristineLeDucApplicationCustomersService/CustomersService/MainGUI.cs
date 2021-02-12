@@ -16,14 +16,19 @@ namespace CustomersService {
             switch (formName) {
                 case "home": activeForm = new HomeGUI(this) { TopLevel = false, TopMost = true }; break;
                 case "login": activeForm = new LoginGUI(this) { TopLevel = false, TopMost = true }; break;
+                case "addWorker": activeForm = new AddWorkerGUI(this) { TopLevel = false, TopMost = true }; break;
             }
             MainPanel.Controls.Add(activeForm);
             activeForm.Show();
         }
 
         private void button1_Click(object sender, EventArgs e) {
-            if (loginContr.LogedInSuccesfully) ShowNewForm("home");
-            else ShowNewForm("login");
+            if (loginContr == null || !loginContr.LogedInSuccesfully) ShowNewForm("login");
+            else if (loginContr.LogedInSuccesfully) ShowNewForm("home");
+        }
+
+        private void button4_Click(object sender, EventArgs e) {
+            ShowNewForm("addWorker");
         }
     }
 }

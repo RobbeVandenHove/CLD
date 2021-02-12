@@ -33,6 +33,7 @@ namespace CustomersService {
             this.Logo = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.MainPanel = new System.Windows.Forms.Panel();
+            this.button4 = new System.Windows.Forms.Button();
             this.NavPanel.SuspendLayout();
             this.LogoPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Logo)).BeginInit();
@@ -41,6 +42,7 @@ namespace CustomersService {
             // NavPanel
             // 
             this.NavPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(39)))), ((int)(((byte)(40)))));
+            this.NavPanel.Controls.Add(this.button4);
             this.NavPanel.Controls.Add(this.button3);
             this.NavPanel.Controls.Add(this.button2);
             this.NavPanel.Controls.Add(this.button1);
@@ -159,6 +161,28 @@ namespace CustomersService {
             this.MainPanel.Size = new System.Drawing.Size(871, 633);
             this.MainPanel.TabIndex = 2;
             // 
+            // button4
+            // 
+            this.button4.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button4.FlatAppearance.BorderSize = 0;
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button4.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button4.ForeColor = System.Drawing.Color.White;
+            this.button4.Image = ((System.Drawing.Image)(resources.GetObject("button4.Image")));
+            this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button4.Location = new System.Drawing.Point(10, 378);
+            this.button4.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.button4.Name = "button4";
+            this.button4.Padding = new System.Windows.Forms.Padding(6, 0, 0, 0);
+            this.button4.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.button4.Size = new System.Drawing.Size(274, 79);
+            this.button4.TabIndex = 4;
+            this.button4.Text = "   Nieuwe medewerker";
+            this.button4.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button4.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
             // MainGUI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 21F);
@@ -189,6 +213,7 @@ namespace CustomersService {
         public System.Windows.Forms.Button button1;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel MainPanel;
+        private System.Windows.Forms.Button button4;
     }
 }
 

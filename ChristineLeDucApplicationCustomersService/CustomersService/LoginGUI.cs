@@ -21,7 +21,7 @@ namespace CustomersService {
                 }
             }
             catch (Exception ex) {
-                this.ErrorLabel.Text = "Oeps er ging iets mis...";
+                this.ErrorLabel.Text = ex.Message;
             }           
         }
 
