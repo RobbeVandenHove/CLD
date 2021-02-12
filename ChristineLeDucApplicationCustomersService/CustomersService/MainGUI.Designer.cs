@@ -50,8 +50,8 @@ namespace CustomersService {
             this.NavPanel.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.NavPanel.Name = "NavPanel";
             this.NavPanel.Padding = new System.Windows.Forms.Padding(10, 0, 10, 0);
-            this.NavPanel.Size = new System.Drawing.Size(294, 626);
-            this.NavPanel.TabIndex = 0;
+            this.NavPanel.Size = new System.Drawing.Size(294, 643);
+            this.NavPanel.TabIndex = 10;
             // 
             // button3
             // 
@@ -115,6 +115,7 @@ namespace CustomersService {
             this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // LogoPanel
             // 
@@ -147,15 +148,15 @@ namespace CustomersService {
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(294, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(819, 10);
+            this.panel1.Size = new System.Drawing.Size(871, 10);
             this.panel1.TabIndex = 1;
             // 
             // MainPanel
             // 
-            this.MainPanel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.MainPanel.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.MainPanel.Location = new System.Drawing.Point(294, 10);
             this.MainPanel.Name = "MainPanel";
-            this.MainPanel.Size = new System.Drawing.Size(819, 616);
+            this.MainPanel.Size = new System.Drawing.Size(871, 633);
             this.MainPanel.TabIndex = 2;
             // 
             // MainGUI
@@ -163,12 +164,13 @@ namespace CustomersService {
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1113, 626);
+            this.ClientSize = new System.Drawing.Size(1165, 643);
             this.Controls.Add(this.MainPanel);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.NavPanel);
             this.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Name = "MainGUI";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Customer Service CLD";
             this.NavPanel.ResumeLayout(false);
             this.LogoPanel.ResumeLayout(false);
@@ -184,7 +186,7 @@ namespace CustomersService {
         private System.Windows.Forms.PictureBox Logo;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
+        public System.Windows.Forms.Button button1;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel MainPanel;
     }
